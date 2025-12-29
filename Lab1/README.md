@@ -8,6 +8,7 @@
 
 ## Question 1
 Write a Python program to add two numbers.
+```python
 
 try:
     a = float(input("Enter a number. "))
@@ -22,4 +23,3 @@ try:
     print(f"The sum of {a} and {b} is {a+b}")
 except ValueError:
     print("Invalid input:please enter the valid number.")
-    
