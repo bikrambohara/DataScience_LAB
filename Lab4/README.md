@@ -1,4 +1,4 @@
-# Lab $
+# Lab 4
 - [Question 1](qs1.py)
 - [Question 2](qs2.py)
 - [Question 3](qs3.py)
