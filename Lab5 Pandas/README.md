@@ -1,7 +1,9 @@
-# Lab 4
+# Lab5 Pandas Basics & Data Handling
 - [Question 1](qs1.py)
 - [Question 2](qs2.py)
 - [Question 3](qs3.py)
 - [Question 4](qs4.py)
 - [Question 5](qs5.py)
 - [Question 6](qs6.py)
+- [Question 7](qs7.py)
+- [Question 8](qs8.py)
