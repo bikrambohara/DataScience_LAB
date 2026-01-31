@@ -3,7 +3,7 @@
 
 import pandas as pd
 
-df = pd.read_csv("student3.csv")
+df = pd.read_csv("Lab5(Pandas)/student3.csv")
 
 
 print("Missing values in the column")

@@ -3,7 +3,7 @@
 
 import pandas as pd
 
-df = pd.read_csv("student.csv")
+df = pd.read_csv("Lab5(Pandas)/student.csv")
 print(df.info())
 print(df.describe())
 

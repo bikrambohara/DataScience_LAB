@@ -3,7 +3,7 @@
 
 import pandas as pd
 
-df = pd.read_csv("student2.csv")
+df = pd.read_csv("Lab5(Pandas)/student2.csv")
 
 result = df.loc[df['Marks'] > 60, ['Name', 'Marks']]
 print(result)

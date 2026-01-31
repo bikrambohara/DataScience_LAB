@@ -3,7 +3,7 @@
 
 import pandas as pd
 
-df = pd.read_csv("student4.csv")
+df = pd.read_csv("Lab5(Pandas)/student4.csv")
 
 Q1 = df['Marks'].quantile(0.25)
 Q3 = df['Marks'].quantile(0.75)

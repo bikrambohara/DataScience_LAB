@@ -3,7 +3,7 @@
 
 import pandas as pd
 
-df = pd.read_csv("student4.csv")
+df = pd.read_csv("Lab5(Pandas)/student4.csv")
 print(df.duplicated())
 
 df.drop_duplicates(inplace=True)
