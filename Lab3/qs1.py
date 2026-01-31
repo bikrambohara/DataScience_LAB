@@ -1,25 +1,18 @@
-# # Writing multiple lines to a file
-# try:
-#     file = open("sample.txt", "w")
-#     file.write("Hello World\n")
-#     file.write("This is a file handling example\n")
-#     file.write("Python is easy to learn")
-#     file.close()
-#     print("Data written to file successfully")
-# except:
-#     print("Error while writing to file")
+# 1. Basic File Read & Write
+# ● Create a text file and write multiple lines into it
+# ● Read the contents of the file and display them on the screen
+# ● Handle the case where the file does not exist using try-except
 
-# # Reading the file
-# try:
-#     file = open("sample.txt", "r")
-#     content = file.read()
-#     print("\nFile Contents:")
-#     print(content)
-#     file.close()
-# except FileNotFoundError:
-#     print("File does not exist")
+try:
+    with open("q1.txt", "w") as f:
+        f.write("This is the first line.\n")
+        f.write("Yo arko line ho.\n")
+        f.write("Ye doosra line hai.\n")
 
+    with open("q1.txt", "r") as f:
+        lines = f.readlines()
+    for i in lines:
+        print(i)
 
-num=8
-num2=0
-print("dividion ",num/num2)
+except FileNotFoundError:
+    print("File not found")

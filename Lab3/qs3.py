@@ -6,8 +6,9 @@
 import csv
 try:
     
-    with open('student.csv', "r")as file:
+    with open('Lab3/student.csv', "r")as file:
         csvFile = csv.reader(file)
+
         csvFile = list(csvFile)
         if len(csvFile) == 0:
             print("No records found")

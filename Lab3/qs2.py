@@ -3,8 +3,9 @@
 # ● Ignores invalid entries using exception handling
 # ● Calculates and displays the sum and average of valid numbers
 
+
 try:
-    file = open("sample.txt", "r")
+    file = open("Lab3/sample.txt", "r")
 
     total = 0
     count = 0
@@ -14,13 +15,13 @@ try:
             num = int(line)
             total += num
             count += 1
-            average = total / count
         except ValueError:
-            print("please enter only numbers")
+            print("Please enter only numbers")
 
     file.close()
 
-    if count >= 0:
+    if count > 0:
+        average = total / count
         print("Sum of valid numbers:", total)
         print("Average of valid numbers:", average)
     else:
